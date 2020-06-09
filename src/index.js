@@ -1,6 +1,6 @@
 import message from "./message";
 import arrow from "./arrow";
-import "./a.css";
+import "./styles.css";
 import "./b.css";
 import listItemsTemplate from "./list-items.hbs";
 

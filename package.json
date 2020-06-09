@@ -6,10 +6,17 @@
   "scripts": {
     "start": "webpack-dev-server --env.mode development",
     "build": "webpack --env.mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://AleksaHrevtsova.github.io/webpack_assembling/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AleksaHrevtsova/webpack_assembling/"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Aleksandra Hrevtsova <aleksandra.hrevtsova@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.2",
