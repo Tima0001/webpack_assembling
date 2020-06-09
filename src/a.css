@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* display: grid; */
+    display: flex;
+    flex-flow: column;
+    transform: translate(50%);
+    background-color: rgb(131, 226, 43);
+    color: rgb(244, 247, 241);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
