@@ -1,4 +1,4 @@
-import { bind } from "file-loader";
+// import { bind } from "file-loader";
 
 export default class Counter {
     constructor({ item, initialValue = 1, step = 1 }) {
