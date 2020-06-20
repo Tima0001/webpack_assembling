@@ -34,6 +34,8 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
+    "moment": "^2.27.0",
+    "moment-locales-webpack-plugin": "^1.2.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "style-loader": "^1.2.1",
@@ -45,6 +47,7 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
-    "basiclightbox": "^5.0.3"
+    "basiclightbox": "^5.0.3",
+    "faker": "^4.1.0"
   }
 }
