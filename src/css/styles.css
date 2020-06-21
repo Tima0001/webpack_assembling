@@ -50,3 +50,25 @@ img {
   color: #eee;
   font-weight: 700;
 }
+
+body {
+  font-size: 60px;
+}
+
+.post-feed {
+  width: 600px;
+  font-size: 16px;
+  display: flex;
+}
+
+.post-feed__item {
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+.tag-list__item {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}

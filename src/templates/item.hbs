@@ -1,13 +1,15 @@
 <li class="post-feed__item">
     <article class="post">
         <header class="post__header">
-            <img class="post__avatar" src="{{author.avatar}}" alt="" height="100">
+            <img src="{{author.avatar}}" alt="" height="80" class="post__avatar">
             <div class="post__meta">
                 <h2 class="post__author">{{author.name}}</h2>
-                <p class="post__date">today</p>
+                <p class="post__date">{{creatAt}}</p>
             </div>
         </header>
+
         <p class="post__text">{{text}}</p>
+
         <footer class="post__footer">
             <ul class="tag__list">
                 {{#each tags}}
