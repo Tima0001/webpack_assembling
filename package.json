@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "basiclightbox": "^5.0.3",
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "lodash.debounce": "^4.0.8"
   }
 }
